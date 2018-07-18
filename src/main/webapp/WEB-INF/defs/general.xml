@@ -1,0 +1,120 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<!DOCTYPE tiles-definitions PUBLIC
+       "-//Apache Software Foundation//DTD Tiles Configuration 3.0//EN"
+       "http://tiles.apache.org/dtds/tiles-config_3_0.dtd">
+
+<!-- <tiles-definitions> <definition name="myapp.homepage" template="/layouts/classic.jsp"> 
+	<put-attribute name="title" value="Tiles tutorial homepage" /> <put-attribute 
+	name="header" value="/tiles/banner.jsp" /> <put-attribute name="menu" value="/tiles/common_menu.jsp" 
+	/> <put-attribute name="body" value="/tiles/home_body.jsp" /> <put-attribute 
+	name="footer" value="/tiles/credits.jsp" /> </definition> </tiles-definitions> -->
+
+<tiles-definitions>
+
+	<definition name="all" template="/WEB-INF/layouts/classic.jsp">
+		<put-attribute name="footer" value="/WEB-INF/layouts/footer.jsp" />
+	</definition>
+
+	<definition name="index" extends="all">
+		<put-attribute name="title" value="Analytical Reporting Tool" />
+		<put-attribute name="body" value="/WEB-INF/views/index.jsp" />
+		<put-attribute name="current" value="index" />
+	</definition>
+
+	<definition name="users" extends="all">
+		<put-attribute name="title" value="Users" />
+		<put-attribute name="body" value="/WEB-INF/views/users.jsp" />
+		<put-attribute name="current" value="users" />
+	</definition>
+
+	<definition name="user-detail" extends="all">
+		<put-attribute name="title" value="User Details" />
+		<put-attribute name="body" value="/WEB-INF/views/user-detail.jsp" />
+		<put-attribute name="current" value="users" />
+	</definition>
+
+	<definition name="user-register" extends="all">
+		<put-attribute name="title" value="User Registration" />
+		<put-attribute name="body" value="/WEB-INF/views/user-register.jsp" />
+		<put-attribute name="current" value="register" />
+	</definition>
+
+	<definition name="login" extends="all">
+		<put-attribute name="title" value="Login" />
+		<put-attribute name="body" value="/WEB-INF/views/login.jsp" />
+		<put-attribute name="current" value="login" />
+	</definition>
+
+	<definition name="build" extends="all">
+		<put-attribute name="title" value="Build" />
+		<put-attribute name="body" value="/WEB-INF/views/build.jsp" />
+		<put-attribute name="current" value="build" />
+	</definition>
+
+	<definition name="testdetails" extends="all">
+		<put-attribute name="title" value="Test Details" />
+		<put-attribute name="body" value="/WEB-INF/views/testdetails.jsp" />
+		<put-attribute name="current" value="testdetails" />
+	</definition>
+
+	<definition name="classdetails" extends="all">
+		<put-attribute name="title" value="Class Details" />
+		<put-attribute name="body" value="/WEB-INF/views/classdetails.jsp" />
+		<put-attribute name="current" value="classdetails" />
+	</definition>
+
+	<definition name="testngbuild" extends="all">
+		<put-attribute name="title" value="Build Analysis" />
+		<put-attribute name="body" value="/WEB-INF/views/testngbuild.jsp" />
+		<put-attribute name="current" value="testngbuild" />
+	</definition>
+
+	<definition name="testngtest" extends="all">
+		<put-attribute name="title" value="Test Analysis" />
+		<put-attribute name="body" value="/WEB-INF/views/testngtest.jsp" />
+		<put-attribute name="current" value="testngtest" />
+	</definition>
+
+	<definition name="testngdashboard" extends="all">
+		<put-attribute name="title" value="Dashboard" />
+		<put-attribute name="body" value="/WEB-INF/views/testngdashboard.jsp" />
+		<put-attribute name="current" value="testngdashboard" />
+	</definition>
+
+	<definition name="jsonbuild" extends="all">
+		<put-attribute name="title" value="Build Analysis" />
+		<put-attribute name="body" value="/WEB-INF/views/jsonbuild.jsp" />
+		<put-attribute name="current" value="jsonbuild" />
+	</definition>
+
+	<definition name="jsontest" extends="all">
+		<put-attribute name="title" value="Test Analysis" />
+		<put-attribute name="body" value="/WEB-INF/views/jsontest.jsp" />
+		<put-attribute name="current" value="jsontest" />
+	</definition>
+
+	<definition name="jsondashboard" extends="all">
+		<put-attribute name="title" value="Dashboard" />
+		<put-attribute name="body" value="/WEB-INF/views/jsondashboard.jsp" />
+		<put-attribute name="current" value="jsondashboard" />
+	</definition>
+
+	<definition name="features" extends="all">
+		<put-attribute name="title" value="Features" />
+		<put-attribute name="body" value="/WEB-INF/views/features.jsp" />
+		<put-attribute name="current" value="features" />
+	</definition>
+	
+	<definition name="elements" extends="all">
+		<put-attribute name="title" value="Elements" />
+		<put-attribute name="body" value="/WEB-INF/views/elements.jsp" />
+		<put-attribute name="current" value="elements" />
+	</definition>
+	
+	<definition name="steps" extends="all">
+		<put-attribute name="title" value="Steps" />
+		<put-attribute name="body" value="/WEB-INF/views/steps.jsp" />
+		<put-attribute name="current" value="steps" />
+	</definition>
+
+</tiles-definitions>

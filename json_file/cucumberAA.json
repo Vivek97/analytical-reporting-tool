@@ -1,0 +1,214 @@
+{
+
+    "id": "buy-different-products-from-talbots",
+    "description": "",
+    "name": "Buy different products from talbots",
+    "keyword": "Feature",
+    "line": 1,
+    "elements": [
+      {
+        
+        "description": "",
+        "name": "Buy Jacket from Talbots",
+        "keyword": "Scenario Outline",
+        "line": 11,
+        "steps": [
+          {
+            "result": {
+              "duration": 8121969953,
+              "status": "passed",
+              "error_message": "sumit"
+            },
+            "name": "A user want to buy \"Tees and Knits\" from \"PETITE\"",
+            "keyword": "Given ",
+            "line": 5,
+            "match": {
+              "arguments": [
+                {
+                  "val": "Tees and Knits",
+                  "offset": 20
+                },
+                {
+                  "val": "PETITE",
+                  "offset": 42
+                }
+              ],
+              "location": "WomenCollectionTest.A_user_want_to_buy_category_from_section(String,String)"
+            },
+            "matchedColumns": [
+              0,
+              1
+            ]
+          },
+          {
+            "result": {
+              "duration": 26362222467,
+              "status": "passed",
+              "error_message": "sumit"
+            },
+            "name": "A user searches for a \"Quilted Nylon \u0026 Fleece Vest\" with given \"PM\" and \"Paprika\"",
+            "keyword": "When ",
+            "line": 6,
+            "match": {
+              "arguments": [
+                {
+                  "val": "Quilted Nylon \u0026 Fleece Vest",
+                  "offset": 23
+                },
+                {
+                  "val": "PM",
+                  "offset": 64
+                },
+                {
+                  "val": "Paprika",
+                  "offset": 73
+                }
+              ],
+              "location": "WomenCollectionTest.A_user_searches_for_a_product_with_given_size_and_colour(String,String,String)"
+            },
+            "matchedColumns": [
+              2,
+              3,
+              4
+            ]
+          },
+          {
+            "result": {
+              "duration": 5978629000,
+              "status": "passed"
+            },
+            "name": "When user finds it and adds to cart",
+            "keyword": "And ",
+            "line": 7,
+            "match": {
+              "location": "WomenCollectionTest.When_user_finds_it_and_adds_to_cart()"
+            }
+          },
+          {
+            "result": {
+              "duration": 15068984134,
+              "status": "passed",
+              "error_message": "sumit"
+            },
+            "name": "it should proceed to payment and the order copy is generated",
+            "keyword": "Then ",
+            "line": 8,
+            "match": {
+              "location": "WomenCollectionTest.it_should_proceed_to_payment_and_the_order_copy_is_generated()"
+            }
+          }
+        ],
+        "type": "scenario"
+      },
+      {
+        "after": [
+          {
+            "result": {
+              "duration": 2918369665,
+              "status": "passed"
+            },
+            "match": {
+              "location": "WomenCollectionTest.tearDown(Scenario)"
+            }
+          }
+        ],
+        "id": "buy-different-products-from-talbots;buy-jacket-from-talbots;;3",
+        "description": "",
+        "name": "Buy Jacket from Talbots",
+        "keyword": "Scenario Outline",
+        "line": 12,
+        "steps": [
+          {
+            "result": {
+              "duration": 7480251857,
+              "status": "passed",
+              "error_message": "sumit"
+            },
+            "name": "A user want to buy \"Jackets\" from \"MISSES\"",
+            "keyword": "Given ",
+            "line": 5,
+            "match": {
+              "arguments": [
+                {
+                  "val": "Jackets",
+                  "offset": 20
+                },
+                {
+                  "val": "MISSES",
+                  "offset": 35
+                }
+              ],
+              "location": "WomenCollectionTest.A_user_want_to_buy_category_from_section(String,String)"
+            },
+            "matchedColumns": [
+              0,
+              1
+            ]
+          },
+          {
+            "result": {
+              "duration": 51392651149,
+              "status": "passed"
+            },
+            "name": "A user searches for a \"Textured Tweed Jacket\" with given \"8\" and \"Red Pepper\"",
+            "keyword": "When ",
+            "line": 6,
+            "match": {
+              "arguments": [
+                {
+                  "val": "Textured Tweed Jacket",
+                  "offset": 23
+                },
+                {
+                  "val": "8",
+                  "offset": 58
+                },
+                {
+                  "val": "Red Pepper",
+                  "offset": 66
+                }
+              ],
+              "location": "WomenCollectionTest.A_user_searches_for_a_product_with_given_size_and_colour(String,String,String)"
+            },
+            "matchedColumns": [
+              2,
+              3,
+              4
+            ]
+          },
+          {
+            "result": {
+              "duration": 5120480696,
+              "status": "failed",
+              "error_message": "com.java.talbots.pageobjects.Payment.addToCart(Payment.java:35)"
+            },
+            "name": "When user finds it and adds to cart",
+            "keyword": "And ",
+            "line": 7,
+            "match": {
+              "location": "WomenCollectionTest.When_user_finds_it_and_adds_to_cart()"
+            }
+          },
+          {
+            "result": {
+              "status": "skipped"
+            },
+            "embeddings": [
+              {
+                "mime_type": "image/png",
+                "data": "sdh"
+              }
+            ],
+            "name": "it should proceed to payment and the order copy is generated",
+            "keyword": "Then ",
+            "line": 8,
+            "match": {
+              "location": "WomenCollectionTest.it_should_proceed_to_payment_and_the_order_copy_is_generated()"
+            }
+          }
+        ],
+        "type": "scenario"
+      }
+    ],
+    "uri": "talbots/talbots.feature"
+  }

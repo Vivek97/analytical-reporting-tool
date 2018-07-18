@@ -1,0 +1,276 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results skipped="0" failed="1" total="1" passed="0">
+  <reporter-output>
+  </reporter-output>
+  <suite name="Default suite" duration-ms="1632" started-at="2014-10-08T09:33:37Z" finished-at="2014-10-08T09:33:39Z">
+    <groups>
+    </groups>
+    <test name="Default test" duration-ms="632" started-at="2014-10-08T09:33:37Z" finished-at="2014-10-08T09:33:39Z">
+      <class name="com.puma.pid2.colormanagement.test.Test_ColourManagement_Scenario_1">
+        <test-method status="FAIL" signature="Test_1()[pri:0, instance:com.puma.pid2.colormanagement.test.Test_ColourManagement_Scenario_1@6281c2b3]" name="Test_Default" duration-ms="1584" started-at="2014-10-08T15:03:37Z" finished-at="2014-10-08T15:03:39Z">
+          <exception class="org.openqa.selenium.NoSuchWindowException">
+            <message>
+              <![CDATA[No window found (WARNING: The server did not provide any stacktrace information)
+					ie.usePerProcesandlesAlerts=true, initialBrowserUrl=takesScreenshot=true}]]]>
+            </message>
+            <full-stacktrace>
+              <![CDATA[org.openqa.selenium.NoSuchWindowException: No window found (WARNING: The server did not provide any stacktrace information)
+					at org.testng.remote.RemoteTestNG.main(RemoteTestNG.java:175)
+				]]>
+            </full-stacktrace>
+          </exception> <!-- org.openqa.selenium.NoSuchWindowException -->
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- Test_Default -->
+      </class> <!-- com.puma.pid2.colormanagement.test.Test_ColourManagement_Scenario_1 -->
+    </test> <!-- First test -->
+	<test name="First test" duration-ms="900" started-at="2014-11-08T09:33:37Z" finished-at="2014-11-08T09:33:39Z">
+      <class name="com.puma.pid2.colormanagement.test.Test_ColourManagement_Scenario_2">
+        <test-method status="PASS" signature="Test_1()[pri:0, instance:com.puma.pid2.colormanagement.test.Test_ColourManagement_Scenario_1@6281c2b3]" name="Test_1" duration-ms="584" started-at="2014-11-08T15:03:37Z" finished-at="2014-11-08T15:03:39Z">
+          <exception class="NULL">
+
+          </exception> <!-- org.openqa.selenium.NoSuchWindowException -->
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- Test_1 -->
+		<test-method status="PASS" signature="Test_1()[pri:0, instance:com.puma.pid2.colormanagement.test.Test_ColourManagement_Scenario_1@6281c2b3]" name="Test_2" duration-ms="584" started-at="2014-11-08T15:03:37Z" finished-at="2014-11-08T15:03:39Z">
+          <exception class="NULL">
+
+          </exception> <!-- org.openqa.selenium.NoSuchWindowException -->
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- Test_2 -->
+      </class> <!-- com.puma.pid2.colormanagement.test.Test_ColourManagement_Scenario_1 -->
+	  <class name="com.puma.pid2.colormanagement.test.Test_ColourManagement_Scenario_3">
+        <test-method status="PASS" signature="Test_1()[pri:0, instance:com.puma.pid2.colormanagement.test.Test_ColourManagement_Scenario_1@6281c2b3]" name="Test_3" duration-ms="184" started-at="2014-11-08T15:03:37Z" finished-at="2014-11-08T15:03:39Z">
+          <exception class="NULL">
+
+          </exception> <!-- org.openqa.selenium.NoSuchWindowException -->
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- Test_1 -->
+		<test-method status="SKIP" signature="Test_1()[pri:0, instance:com.puma.pid2.colormanagement.test.Test_ColourManagement_Scenario_1@6281c2b3]" name="Test_4" duration-ms="158" started-at="2014-11-08T15:03:37Z" finished-at="2014-11-08T15:03:39Z">
+          <exception class="NULL">
+
+          </exception> <!-- org.openqa.selenium.NoSuchWindowException -->
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- Test_2 -->
+      </class> <!-- com.puma.pid2.colormanagement.test.Test_ColourManagement_Scenario_1 -->
+    </test> <!-- First test -->
+	<test name="Second test" duration-ms="900" started-at="2014-11-08T09:33:37Z" finished-at="2014-11-08T09:33:39Z">
+      <class name="com.puma.pid2.colormanagement.test.Test_ColourManagement_Scenario_2">
+        <test-method status="PASS" signature="Test_1()[pri:0, instance:com.puma.pid2.colormanagement.test.Test_ColourManagement_Scenario_1@6281c2b3]" name="Test_5" duration-ms="584" started-at="2014-11-08T15:03:37Z" finished-at="2014-11-08T15:03:39Z">
+          <exception class="NULL">
+
+          </exception> <!-- org.openqa.selenium.NoSuchWindowException -->
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- Test_1 -->
+      </class> <!-- com.puma.pid2.colormanagement.test.Test_ColourManagement_Scenario_1 -->
+	  <class name="com.puma.pid2.colormanagement.test.Test_ColourManagement_Scenario_3">
+        <test-method status="FAIL" signature="Test_1()[pri:0, instance:com.puma.pid2.colormanagement.test.Test_ColourManagement_Scenario_1@6281c2b3]" name="Test_6" duration-ms="154" started-at="2014-11-08T15:03:37Z" finished-at="2014-11-08T15:03:39Z">
+          <exception class="org.openqa.selenium.NoSuchWindowException">
+            <message>
+              <![CDATA[No window found (WARNING: The server did not provide any stacktrace information)
+				hes=, takesScreenshot=true}]]]>
+            </message>
+            <full-stacktrace>
+              <![CDATA[org.openqa.seleniumace information)
+				Command duration or timeout: 1.12 seconds
+				]]>
+            </full-stacktrace>
+          </exception> <!-- org.openqa.selenium.NoSuchWindowException -->
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- Test_1 -->
+		<test-method status="SKIP" signature="Test_1()[pri:0, instance:com.puma.pid2.colormanagement.test.Test_ColourManagement_Scenario_1@6281c2b3]" name="Test_7" duration-ms="158" started-at="2014-11-08T15:03:37Z" finished-at="2014-11-08T15:03:39Z">
+          <exception class="NULL">
+
+          </exception> <!-- org.openqa.selenium.NoSuchWindowException -->
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- Test_2 -->
+      </class> <!-- com.puma.pid2.colormanagement.test.Test_ColourManagement_Scenario_1 -->
+    </test> <!-- Second test -->
+  </suite> <!-- Default suite -->
+  <suite name="Primary suite" duration-ms="1932" started-at="2014-10-08T09:33:37Z" finished-at="2014-10-08T09:33:39Z">
+    <groups>
+    </groups>
+    <test name="Third test" duration-ms="732" started-at="2014-10-08T09:33:37Z" finished-at="2014-10-08T09:33:39Z">
+      <class name="com.puma.pid2.colormanagement.test.Test_ColourManagement_Scenario_4">
+        <test-method status="FAIL" signature="Test_1()[pri:0, instance:com.puma.pid2.colormanagement.test.Test_ColourManagement_Scenario_1@6281c2b3]" name="Test_8" duration-ms="884" started-at="2014-10-08T15:03:37Z" finished-at="2014-10-08T15:03:39Z">
+          <exception class="org.openqa.selenium.NoSuchWindowException">
+            <message>
+              <![CDATA[No window found (WARNING: The server did not provide any stacktrace information)
+					Command duration or timeout: 1.12 seconds
+					ie.browserCommandLineSwitches=, takesScreenshot=true}]]]>
+            </message>
+            <full-stacktrace>
+              <![CDATA[org.openqa.selenium.NoSuchWindowException: No window found (WARNING: The server did not provide any stacktrace information)
+					at org.testng.remote.RemoteTestNG.main(RemoteTestNG.java:175)
+				]]>
+            </full-stacktrace>
+          </exception> <!-- org.openqa.selenium.NoSuchWindowException -->
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- Test_Default -->
+      </class> <!-- com.puma.pid2.colormanagement.test.Test_ColourManagement_Scenario_1 -->
+    </test> <!-- Third test -->
+	<test name="Fourth test" duration-ms="1900" started-at="2014-11-08T09:33:37Z" finished-at="2014-11-08T09:33:39Z">
+      <class name="com.puma.pid2.colormanagement.test.Test_ColourManagement_Scenario_5">
+        <test-method status="PASS" signature="Test_1()[pri:0, instance:com.puma.pid2.colormanagement.test.Test_ColourManagement_Scenario_1@6281c2b3]" name="Test_9" duration-ms="1584" started-at="2014-11-08T15:03:37Z" finished-at="2014-11-08T15:03:39Z">
+          <exception class="NULL">
+
+          </exception> <!-- org.openqa.selenium.NoSuchWindowException -->
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- Test_1 -->
+		<test-method status="PASS" signature="Test_1()[pri:0, instance:com.puma.pid2.colormanagement.test.Test_ColourManagement_Scenario_1@6281c2b3]" name="Test_10" duration-ms="1584" started-at="2014-11-08T15:03:37Z" finished-at="2014-11-08T15:03:39Z">
+          <exception class="NULL">
+
+          </exception> <!-- org.openqa.selenium.NoSuchWindowException -->
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- Test_2 -->
+      </class> <!-- com.puma.pid2.colormanagement.test.Test_ColourManagement_Scenario_1 -->
+	  <class name="com.puma.pid2.colormanagement.test.Test_ColourManagement_Scenario_6">
+        <test-method status="PASS" signature="Test_1()[pri:0, instance:com.puma.pid2.colormanagement.test.Test_ColourManagement_Scenario_1@6281c2b3]" name="Test_11" duration-ms="1584" started-at="2014-11-08T15:03:37Z" finished-at="2014-11-08T15:03:39Z">
+          <exception class="NULL">
+
+          </exception> <!-- org.openqa.selenium.NoSuchWindowException -->
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- Test_1 -->
+		<test-method status="SKIP" signature="Test_1()[pri:0, instance:com.puma.pid2.colormanagement.test.Test_ColourManagement_Scenario_1@6281c2b3]" name="Test_12" duration-ms="1584" started-at="2014-11-08T15:03:37Z" finished-at="2014-11-08T15:03:39Z">
+          <exception class="NULL">
+
+          </exception> <!-- org.openqa.selenium.NoSuchWindowException -->
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- Test_2 -->
+      </class> <!-- com.puma.pid2.colormanagement.test.Test_ColourManagement_Scenario_1 -->
+    </test> <!-- First test -->
+	<test name="Fifth test" duration-ms="1900" started-at="2014-11-08T09:33:37Z" finished-at="2014-11-08T09:33:39Z">
+      <class name="com.puma.pid2.colormanagement.test.Test_ColourManagement_Scenario_7">
+        <test-method status="PASS" signature="Test_1()[pri:0, instance:com.puma.pid2.colormanagement.test.Test_ColourManagement_Scenario_1@6281c2b3]" name="Test_13" duration-ms="1584" started-at="2014-11-08T15:03:37Z" finished-at="2014-11-08T15:03:39Z">
+          <exception class="NULL">
+
+          </exception> <!-- org.openqa.selenium.NoSuchWindowException -->
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- Test_1 -->
+      </class> <!-- com.puma.pid2.colormanagement.test.Test_ColourManagement_Scenario_1 -->
+	  <class name="com.puma.pid2.colormanagement.test.Test_ColourManagement_Scenario_8">
+        <test-method status="FAIL" signature="Test_1()[pri:0, instance:com.puma.pid2.colormanagement.test.Test_ColourManagement_Scenario_1@6281c2b3]" name="Test_14" duration-ms="1584" started-at="2014-11-08T15:03:37Z" finished-at="2014-11-08T15:03:39Z">
+          <exception class="org.openqa.selenium.NoSuchWindowException">
+            <message>
+              <![CDATA[No window takesScreenshot=true}]]]>
+            </message>
+            <full-stacktrace>
+              <![CDATA[org.openqa.selenium.NoSuchWindowException: No window found (WARNING: The server did not provide any stacktrace informationava:175)
+				]]>
+            </full-stacktrace>
+          </exception> <!-- org.openqa.selenium.NoSuchWindowException -->
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- Test_1 -->
+		<test-method status="SKIP" signature="Test_1()[pri:0, instance:com.puma.pid2.colormanagement.test.Test_ColourManagement_Scenario_1@6281c2b3]" name="Test_15" duration-ms="1584" started-at="2014-11-08T15:03:37Z" finished-at="2014-11-08T15:03:39Z">
+          <exception class="NULL">
+
+          </exception> <!-- org.openqa.selenium.NoSuchWindowException -->
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- Test_2 -->
+      </class> <!-- com.puma.pid2.colormanagement.test.Test_ColourManagement_Scenario_1 -->
+    </test> <!-- Second test -->
+  </suite> <!-- Primary suite -->
+  <suite name="Secondary suite" duration-ms="1632" started-at="2014-10-08T09:33:37Z" finished-at="2014-10-08T09:33:39Z">
+    <groups>
+    </groups>
+    <test name="Sixth test" duration-ms="1632" started-at="2014-10-08T09:33:37Z" finished-at="2014-10-08T09:33:39Z">
+      <class name="com.puma.pid2.colormanagement.test.Test_ColourManagement_Scenario_9">
+        <test-method status="FAIL" signature="Test_1()[pri:0, instance:com.puma.pid2.colormanagement.test.Test_ColourManagement_Scenario_1@6281c2b3]" name="Test_16" duration-ms="1584" started-at="2014-10-08T15:03:37Z" finished-at="2014-10-08T15:03:39Z">
+          <exception class="org.openqa.selenium.NoSuchWindowException">
+            <message>
+              <![CDATA[No windsScreenshot=true}]]]>
+            </message>
+            <full-stacktrace>
+              <![CDATA[org.openqa.selenoteTestNG.java:175)
+				]]>
+            </full-stacktrace>
+          </exception> <!-- org.openqa.selenium.NoSuchWindowException -->
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- Test_Default -->
+      </class> <!-- com.puma.pid2.colormanagement.test.Test_ColourManagement_Scenario_1 -->
+    </test> <!-- Third test -->
+	<test name="Seventh test" duration-ms="1900" started-at="2014-11-08T09:33:37Z" finished-at="2014-11-08T09:33:39Z">
+      <class name="com.puma.pid2.colormanagement.test.Test_ColourManagement_Scenario_10">
+        <test-method status="PASS" signature="Test_1()[pri:0, instance:com.puma.pid2.colormanagement.test.Test_ColourManagement_Scenario_1@6281c2b3]" name="Test_17" duration-ms="1584" started-at="2014-11-08T15:03:37Z" finished-at="2014-11-08T15:03:39Z">
+          <exception class="NULL">
+
+          </exception> <!-- org.openqa.selenium.NoSuchWindowException -->
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- Test_1 -->
+		<test-method status="PASS" signature="Test_1()[pri:0, instance:com.puma.pid2.colormanagement.test.Test_ColourManagement_Scenario_1@6281c2b3]" name="Test_18" duration-ms="1584" started-at="2014-11-08T15:03:37Z" finished-at="2014-11-08T15:03:39Z">
+          <exception class="NULL">
+
+          </exception> <!-- org.openqa.selenium.NoSuchWindowException -->
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- Test_2 -->
+      </class> <!-- com.puma.pid2.colormanagement.test.Test_ColourManagement_Scenario_1 -->
+	  <class name="com.puma.pid2.colormanagement.test.Test_ColourManagement_Scenario_11">
+        <test-method status="PASS" signature="Test_1()[pri:0, instance:com.puma.pid2.colormanagement.test.Test_ColourManagement_Scenario_1@6281c2b3]" name="Test_19" duration-ms="1584" started-at="2014-11-08T15:03:37Z" finished-at="2014-11-08T15:03:39Z">
+          <exception class="NULL">
+
+          </exception> <!-- org.openqa.selenium.NoSuchWindowException -->
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- Test_1 -->
+		<test-method status="SKIP" signature="Test_1()[pri:0, instance:com.puma.pid2.colormanagement.test.Test_ColourManagement_Scenario_1@6281c2b3]" name="Test_20" duration-ms="1584" started-at="2014-11-08T15:03:37Z" finished-at="2014-11-08T15:03:39Z">
+          <exception class="NULL">
+
+          </exception> <!-- org.openqa.selenium.NoSuchWindowException -->
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- Test_2 -->
+      </class> <!-- com.puma.pid2.colormanagement.test.Test_ColourManagement_Scenario_1 -->
+    </test> <!-- First test -->
+	<test name="Eighth test" duration-ms="1900" started-at="2014-11-08T09:33:37Z" finished-at="2014-11-08T09:33:39Z">
+      <class name="com.puma.pid2.colormanagement.test.Test_ColourManagement_Scenario_12">
+        <test-method status="PASS" signature="Test_1()[pri:0, instance:com.puma.pid2.colormanagement.test.Test_ColourManagement_Scenario_1@6281c2b3]" name="Test_21" duration-ms="1584" started-at="2014-11-08T15:03:37Z" finished-at="2014-11-08T15:03:39Z">
+          <exception class="NULL">
+
+          </exception> <!-- org.openqa.selenium.NoSuchWindowException -->
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- Test_1 -->
+      </class> <!-- com.puma.pid2.colormanagement.test.Test_ColourManagement_Scenario_1 -->
+	  <class name="com.puma.pid2.colormanagement.test.Test_ColourManagement_Scenario_13">
+        <test-method status="FAIL" signature="Test_1()[pri:0, instance:com.puma.pid2.colormanagement.test.Test_ColourManagement_Scenario_1@6281c2b3]" name="Test_22" duration-ms="1584" started-at="2014-11-08T15:03:37Z" finished-at="2014-11-08T15:03:39Z">
+          <exception class="org.openqa.selenium.NoSuchWindowException">
+            <message>
+              <![CDATA[No wi, takesScreenshot=true}]]]>
+            </message>
+            <full-stacktrace>
+              <![CDATA[org.openqa.selenium.NoSu75)
+				]]>
+            </full-stacktrace>
+          </exception> <!-- org.openqa.selenium.NoSuchWindowException -->
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- Test_1 -->
+		<test-method status="SKIP" signature="Test_1()[pri:0, instance:com.puma.pid2.colormanagement.test.Test_ColourManagement_Scenario_1@6281c2b3]" name="Test_23" duration-ms="1584" started-at="2014-11-08T15:03:37Z" finished-at="2014-11-08T15:03:39Z">
+          <exception class="NULL">
+
+          </exception> <!-- org.openqa.selenium.NoSuchWindowException -->
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- Test_2 -->
+      </class> <!-- com.puma.pid2.colormanagement.test.Test_ColourManagement_Scenario_1 -->
+    </test> <!-- Second test -->
+  </suite> <!-- Primary suite -->  
+</testng-results>

@@ -1,0 +1,17 @@
+@CHARSET "UTF-8";
+td {
+	cursor: default;
+}
+a {
+	cursor: pointer;
+}
+#mainDiv {
+	height: 100%;	margin-left: 10%;	margin-right: 10%;	
+}
+#mainDiv h3 {
+	text-align: center;
+}
+#buildTable {
+	height: 100%;	width: 100%;
+	float: right;	text-align: center;	
+}
